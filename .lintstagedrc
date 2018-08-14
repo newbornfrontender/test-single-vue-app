@@ -1,0 +1,9 @@
+{
+  "linters": {
+    "./src/**/*.{js,vue}": [
+      "yarn prettier:write",
+      "git add"
+    ]
+  },
+  "ignore": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "test-single-vue-app",
+  "version": "1.0.0",
+  "description": "Тестовое приложение на одиночных компонентах",
+  "scripts": {
+    "clean": "rimraf ./dist/*",
+    "prettier:watch": "onchange . -- prettier --write {{changed}}",
+    "prettier:write": "prettier ./{test,src}/**/*.{ts,tsx,vue} --write",
+    "serve": "vue serve ./src/App.vue",
+    "serve:fix": "npm-run-all --parallel prettier:watch serve",
+    "prebuild": "yarn clean",
+    "build": "vue build ./src/App.vue"
+  },
+  "repository": "https://github.com/newbornfrontender/test-single-vue-app.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.2",
+    "npm-run-all": "^4.1.3",
+    "onchange": "^4.1.0",
+    "prettier": "^1.14.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  }
+}
