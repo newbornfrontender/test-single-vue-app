@@ -1,5 +1,5 @@
 <template>
-  <section id="greeting" class="component">
+  <section id="greeting" class="card">
     <h1 class="title title--main">{{ title }}</h1>
   </section>
 </template>
