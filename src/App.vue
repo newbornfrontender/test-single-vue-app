@@ -7,6 +7,7 @@
             <router-link
               class="list__link list-nav__link"
               to="/"
+              exact
             >Home</router-link>
           </li>
           <li class="list__item list-nav__item">
