@@ -1,5 +1,5 @@
 <template>
-  <article class="component">
+  <article id="todo" class="component">
     <h2 class="title">{{ title }}</h2>
     <ol class="list">
       <li

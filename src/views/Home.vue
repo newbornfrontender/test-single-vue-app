@@ -1,5 +1,9 @@
 <template>
   <section class="container">
-    <h1>Hi</h1>
+    <p>
+      <a href="/examples#todo">Examples: ToDo</a>
+      <br>
+      <a href="/examples#greeting">Examples: Greeting</a>
+    </p>
   </section>
 </template>
