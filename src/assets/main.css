@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background-color: #42b983;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -5,6 +10,16 @@
   list-style-type: none;
 }
 
+.list__item {
+  display: flex;
+}
+
 .list__link {
   text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  color: #fff;
 }
