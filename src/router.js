@@ -1,8 +1,10 @@
 'use strict';
 
+// Рабочие файлы
 import Vue from 'vue';
 import Router from 'vue-router';
 
+// Компоненты
 import Home from './views/Home.vue';
 import Examples from './views/Examples.vue';
 import Grid from './views/Grid.vue';
