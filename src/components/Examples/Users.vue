@@ -15,10 +15,10 @@
           {{ FIO(user) }}
         </p>
         <img
+          class="user-img"
           v-if="user.img"
           v-bind:src="user.img"
           alt="Изображение пользователя"
-          height="60px"
         >
         <span v-else>Нет изображения</span>
         <hr>
@@ -73,5 +73,13 @@ export default {
 .users-view {
   display: flex;
   justify-content: space-between;
+}
+
+.user-img {
+  height: 60px;
+}
+
+.no-avatar {
+  color: #f00;
 }
 </style>
