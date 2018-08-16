@@ -5,11 +5,11 @@
   "scripts": {
     "clean": "rimraf ./dist/*",
     "prettier:watch": "onchange . -- prettier --write {{changed}}",
-    "prettier:write": "prettier ./{test,src}/**/*.{ts,tsx,vue} --write",
-    "serve": "vue serve ./src/App.vue",
+    "prettier:write": "prettier ./src/**/*.{js,vue} --write",
+    "serve": "vue serve ./src/main.js",
     "serve:fix": "npm-run-all --parallel prettier:watch serve",
     "prebuild": "yarn clean",
-    "build": "vue build ./src/App.vue"
+    "build": "vue build ./src/main.js"
   },
   "repository": "https://github.com/newbornfrontender/test-single-vue-app.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
