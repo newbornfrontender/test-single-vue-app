@@ -20,7 +20,10 @@
           v-bind:src="user.img"
           alt="Изображение пользователя"
         >
-        <span v-else>Нет изображения</span>
+        <span
+          v-else
+          v-bind:class="user.img ? '' : 'no-avatar'"
+        >Нет изображения</span>
         <hr>
       </li>
     </ul>
