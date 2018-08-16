@@ -6,6 +6,8 @@
 </template>
 
 <script>
+'use strict';
+
 import Greeting from '../components/Examples/Greeting.vue';
 import Todo from '../components/Examples/Todo.vue';
 
