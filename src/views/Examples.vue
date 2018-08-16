@@ -2,6 +2,7 @@
   <section class="example-container">
     <Greeting class="example--first"/>
     <Todo class="example--second"/>
+    <Users class="example--third"/>
   </section>
 </template>
 
@@ -11,11 +12,13 @@
 // Компоненты
 import Greeting from '../components/Examples/Greeting.vue';
 import Todo from '../components/Examples/Todo.vue';
+import Users from '../components/Examples/Users.vue';
 
 export default {
   components: {
     Greeting,
     Todo,
+    Users,
   },
 };
 </script>
