@@ -3,6 +3,7 @@
     <Greeting class="example--first"/>
     <Todo class="example--second"/>
     <Users class="example--third"/>
+    <Tables class="example--fourth"/>
   </section>
 </template>
 
@@ -13,12 +14,14 @@
 import Greeting from '../components/Examples/Greeting.vue';
 import Todo from '../components/Examples/Todo.vue';
 import Users from '../components/Examples/Users.vue';
+import Tables from '../components/Examples/Tables.vue';
 
 export default {
   components: {
     Greeting,
     Todo,
     Users,
+    Tables,
   },
 };
 </script>

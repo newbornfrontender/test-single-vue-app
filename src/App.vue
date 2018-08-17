@@ -22,6 +22,12 @@
               to="/grid"
             >Grid</router-link>
           </li>
+          <li class="list__item list-nav__item">
+            <router-link
+              class="list__link list-nav__link"
+              to="/firebase-gallery"
+            >FirebaseGallery</router-link>
+          </li>
         </ul>
       </nav>
     </header>
